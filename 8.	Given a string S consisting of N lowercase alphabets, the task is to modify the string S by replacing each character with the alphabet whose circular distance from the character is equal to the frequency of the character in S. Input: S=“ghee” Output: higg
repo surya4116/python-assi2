@@ -1,0 +1,10 @@
+s="ghee"
+fre={}
+for i in s:
+  if i in fre:
+    fre[i]+=1
+  else:
+    fre[i]=1
+for char in s:
+  newchar=chr(ord(char)+fre[char])
+  print(newchar,end="")
