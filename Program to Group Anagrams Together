@@ -1,0 +1,14 @@
+s='''hello every one.
+     babu is not available.
+     because.
+     babu is.
+     busy.'''
+count=0
+sp=s.split(".")
+for i in range(0,len(sp)):
+    for word in sp[i]:
+        if word=='b':
+            count+=1
+            break
+print(count)
+6
