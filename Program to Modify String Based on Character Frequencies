@@ -1,0 +1,4 @@
+st="i am a programmer"
+for i in range(0,len(st)):
+    if st[i]=='p':
+        print(i+1)
