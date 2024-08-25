@@ -1,0 +1,11 @@
+st="saveetha school of engineering"
+vc,cc=0,0
+s=st.lower()
+v=['a','e','i','o','u']
+for i in s:
+    if i in v:
+        vc+=1
+    else:
+        cc+=1
+print(vc)
+print(cc)
