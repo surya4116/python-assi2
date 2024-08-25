@@ -1,0 +1,5 @@
+import re
+s="modi@sep!#$&"
+s1=r'[!@#$%^&*]'
+count=len(re.findall(s1,s))
+print(count)
